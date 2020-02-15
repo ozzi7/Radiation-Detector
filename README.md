@@ -42,7 +42,7 @@ For the SBM-20 Geiger-Müller Tube the number of detections per minute can be co
 ```
 μS/h = detections/minute * 0.0057
 ```
-The explanation for the factor can be found [here](https://www.cooking-hacks.com/documentation/tutorials/geiger-counter-radiation-sensor-board-arduino-raspberry-pi-tutorial#cpm_to_servants)
+The explanation for the factor can be found [here](https://www.cooking-hacks.com/documentation/tutorials/geiger-counter-radiation-sensor-board-arduino-raspberry-pi-tutorial#cpm_to_servants).
 
 Running the gnuplot script *plot.plt* should give a graph similar to this (roughly 0.1311 μS/h)
 ![Graph](media/graph.png)
