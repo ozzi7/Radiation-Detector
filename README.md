@@ -6,13 +6,13 @@ A DIY radiation detector and logger.
 
 The Radiation detector is built using the MightyOhm Geiger Counter Kit and a Raspberry Pi. The standard Geiger-Müller Tube that comes with the Geiger Counter Kit (SBM-20) allows for detection of beta and gamma rays. The *geiger.py* script provided in this repository provides the glue between the two devices and logs the data on the Raspberry Pi. The gnuplot script *plot.plt* can be used to average and display the data.
 
-### Prerequisites
+## Prerequisites
 
 * A [MightyOhm Geiger Counter](http://mightyohm.com/blog/products/geiger-counter/) kit.
 * A [Raspberry Pi](https://www.raspberrypi.org/).
 * Tools to assemble the geiger counter kit and some wires to connect the geiger counter to the Pi.
 
-### Setup
+## Setup
 
 * Wire everything up according to this image. 
 ![Geiger-Pi](media/hardware.png)
