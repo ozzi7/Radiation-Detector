@@ -12,7 +12,7 @@ while True: # While loop to keep the program running indefinitely.
         while datetime.now().minute == currentMinute: # AKA during the minute
                 if GPIO.input(13) == True: # If the geiger counter blips, increment the count variable by 1.
                         count += 1
-                while GPIO.input(13) == True:
+                while GPIO.input(13) == True: # This prevents detections from being counted twice!
                         pass
 
         print str(count) + " => " + str(0.0057*count) + "uS/h"  # print to the screen the amount of times the Geiger Counter bliped during the minute.
