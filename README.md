@@ -16,7 +16,7 @@ The Radiation detector is built using the MightyOhm Geiger Counter Kit and a Ras
 
 * Wire everything up according to this image. 
 ![Geiger-Pi](media/hardware.png)
-* Copy geiger.py and make sure the pins in the code match the ones that were connected!
+* Copy geiger.py to the Pi and make sure the pins in the code match the ones that were connected!
 * Run the script and it will save the data in detections.txt in the same folder.
 
 Optionally
